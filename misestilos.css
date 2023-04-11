@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+  background-color: rgb(109, 155, 164);
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+header div img {
+  width: 100px;
+  border: solid rgb(158, 122, 195);
+  border-radius: 50%;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  padding-right: 15px;
+  cursor: pointer;
+}
+header nav a:hover {
+  color: gold;
+}
+h1 {
+  text-align: center;
+  margin: 50px 0 50px 0;
+  color: blanchedalmond;
+}
+.galeria {
+  display: flex;
+}
+.producto-a,
+.producto-b,
+.producto-c,
+.producto-d {
+  border: dotted blue;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 10%;
+}
+.producto-a img,
+.producto-b img,
+.producto-c img,
+.producto-d img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.botones-enlaces {
+  display: flex;
+  justify-content: space-around;
+}
+.botones-enlaces div {
+  background-color: rgb(154, 99, 205);
+  text-align: center;
+  width: 100%;
+  border-radius: 15px;
+  border: solid;
+  margin: 5px;
+}
+.botones-enlaces a {
+  color: chartreuse;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0 20px 0;
+}
+footer div {
+  font: 1.3em sans-serif;
+  color: rgb(256, 256, 256);
+  font-weight: bold;
+  margin: 10px;
+}
